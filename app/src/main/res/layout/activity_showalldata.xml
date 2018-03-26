@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/deptName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="deptName"
+        android:textSize="@dimen/text_size"
+        android:textIsSelectable="true"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@id/parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="@id/parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@id/parent"/>
+
+    <TextView
+        android:id="@+id/deptName_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="deptName_content"
+        android:textSize="@dimen/text_size"
+        android:textIsSelectable="true"
+        android:paddingStart="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintLeft_toLeftOf="@id/deptName"
+        app:layout_constraintTop_toBottomOf="@id/deptName" />
+
+    <TextView
+        android:id="@+id/news_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="news_from"
+        android:textSize="@dimen/text_size"
+        android:textIsSelectable="true"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintLeft_toLeftOf="@id/deptName"
+        app:layout_constraintTop_toBottomOf="@id/deptName_content" />
+
+    <TextView
+        android:id="@+id/news_from_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="news_from_content"
+        android:textSize="@dimen/text_size"
+        android:textIsSelectable="true"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintLeft_toLeftOf="@id/deptName"
+        app:layout_constraintTop_toBottomOf="@id/news_from" />
+
+    <TextView
+        android:id="@+id/news_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="news_content"
+        android:textSize="@dimen/text_size"
+        android:textIsSelectable="true"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintLeft_toLeftOf="@id/deptName"
+        app:layout_constraintTop_toBottomOf="@id/news_from_content" />
+
+    <TextView
+        android:id="@+id/news_content2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="news_content2"
+        android:textSize="@dimen/text_size"
+        android:singleLine="false"
+        android:textIsSelectable="true"
+        android:maxWidth="330sp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintLeft_toLeftOf="@id/deptName"
+        app:layout_constraintTop_toBottomOf="@id/news_content" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact"
+        android:textSize="@dimen/text_size"
+        android:textIsSelectable="true"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintLeft_toLeftOf="@id/deptName"
+        app:layout_constraintTop_toBottomOf="@id/news_content2" />
+
+    <TextView
+        android:id="@+id/contact_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact_content"
+        android:textSize="@dimen/text_size"
+        android:textIsSelectable="true"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintLeft_toLeftOf="@id/deptName"
+        app:layout_constraintTop_toBottomOf="@id/contact" />
+
+    <TextView
+        android:id="@+id/contact_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact_phone"
+        android:textSize="@dimen/text_size"
+        android:textIsSelectable="true"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintLeft_toLeftOf="@id/deptName"
+        app:layout_constraintTop_toBottomOf="@id/contact_content" />
+
+    <TextView
+        android:id="@+id/contact_phone_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact_phone_content"
+        android:textSize="@dimen/text_size"
+        android:textIsSelectable="true"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintLeft_toLeftOf="@id/deptName"
+        app:layout_constraintTop_toBottomOf="@id/contact_phone"
+        app:layout_constraintBottom_toBottomOf="@+id/parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

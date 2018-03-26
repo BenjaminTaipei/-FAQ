@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "67501907720",
+    "firebase_url": "https://taipeifaq.firebaseio.com",
+    "project_id": "taipeifaq",
+    "storage_bucket": "taipeifaq.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67501907720:android:7229a600e715a771",
+        "android_client_info": {
+          "package_name": "com.example.benjamin.taipeifaq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67501907720-pafggoplkrsblpuivpqnna0s74cm7co9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.benjamin.taipeifaq",
+            "certificate_hash": "b9ba7db5b50f8c14fbc2fdbd47b5646449fb4b65"
+          }
+        },
+        {
+          "client_id": "67501907720-68qbar885ebp1t8ro87pod1l7t2ijjsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCbk8-lmvlsAlwVI1hzeyZ8_U-A7D888A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67501907720-68qbar885ebp1t8ro87pod1l7t2ijjsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

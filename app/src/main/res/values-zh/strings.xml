@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">台北市府網站之常見問答</string>
+    <string name="action_settings">設定</string>
+    <string name="ok">確定</string>
+    <string name="no_history">沒有瀏覽紀錄</string>
+    <string name="search">搜尋</string>
+    <string name="action_logout">登出</string>
+    <string name="email_empty">電子信箱是空的，請重新輸入。</string>
+    <string name="password_empty">密碼是空的，請重新輸入。</string>
+    <string name="account_exist">此帳號已經存在</string>
+    <string name="password_wrong">密碼輸入錯誤</string>
+    <string name="signin_successful">註冊成功！</string>
+    <string name="signin_failed">註冊失敗！</string>
+    <string name="deptName">機構名稱</string>
+    <string name="newsFrom">資料來源</string>
+    <string name="newsContent">內容描述</string>
+    <string name="contact">連絡單位/人</string>
+    <string name="contactPhone">連絡電話</string>
+
+
+
+</resources>
