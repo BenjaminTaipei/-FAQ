@@ -97,7 +97,7 @@ public class TabFragment extends Fragment {
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
 
-                //如果滑到底而且page是0的位置，則抓取更多資料
+                //如果滑到底而且page是1的位置，則抓取更多資料
                 if(!recyclerView.canScrollVertically(1) && MainActivity.position == 1){
                     RequestQueue mQueue;
                     String urlFAQ = "http://data.taipei/opendata/datalist/" +

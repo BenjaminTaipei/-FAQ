@@ -175,11 +175,18 @@ public class MainActivity extends AppCompatActivity {
                 if(pos == 0){
                     autoCompleteTextView.setVisibility(View.VISIBLE);
                     item.setVisible(true);
+                    fab.setVisibility(View.GONE);
+                }
+                else if(pos == 1){
+                    autoCompleteTextView.setVisibility(View.GONE);
+                    item.setVisible(false);
+                    fab.setVisibility(View.GONE);
+                    position = pos;
                 }
                 else{
                     autoCompleteTextView.setVisibility(View.GONE);
                     item.setVisible(false);
-                    position = pos;
+                    fab.setVisibility(View.VISIBLE);
                 }
             }
 
@@ -195,10 +202,11 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
 
         fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setVisibility(View.GONE);
         fab.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Fab Clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "清除搜尋紀錄", Toast.LENGTH_SHORT).show();
                 preferences.edit().clear().apply(); //清空SharedPreferences
             }
         });
